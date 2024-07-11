@@ -13,6 +13,9 @@ import UseEffect from './component/Hooks/UseEffect'
 import UseEffect1 from './component/Hooks/UseEffect1'
 import CardComponent from './component/props/CardComponent'
 import ConditionalRendering from './component/ConditionalRendering'
+import DigitalClock from './component/Hooks/DigitalClock'
+import HandlingEvents from './component/Hooks/HandlingEvents '
+import ControlledandUncontrolled from './component/Hooks/ControlledandUncontrolled'
 
 function App() {
   let data ="ravi"
@@ -30,11 +33,14 @@ function App() {
       {/* <CSSStyling/> */}
       {/* {<Props12 name={"ram"}/>} */}
       {/* <CardComponent/> */}
-      <ConditionalRendering/>
+      {/* <ConditionalRendering/> */}
       {/* <Images /> */}
       {/* <UseState1/> */}
       {/* <UseEffect/> */}
       {/* <UseEffect1/> */}
+      {/* <DigitalClock/> */}
+      {/* <HandlingEvents/> */}
+      <ControlledandUncontrolled/>
     </>
   )
 }

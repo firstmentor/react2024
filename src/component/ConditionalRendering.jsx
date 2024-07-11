@@ -21,17 +21,7 @@ const MyFun =()=>{
 function ConditionalRendering() {
     let age = 30;
     let result;
-    // if(age>=18){
-    //     return(
-    //         <h1>Eligible For VOte</h1>
-    //     )
-    // }else{
-    //     return (
-    //         <h1>Not Eligible For Vote</h1>
-
-    //         )
-
-    // }
+    
     if (age > 18) {
         result = <h1>you can vote</h1>
     } else {
