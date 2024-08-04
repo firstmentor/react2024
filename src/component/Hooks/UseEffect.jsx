@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react'
 
 function UseEffect() {
+
+    //jab bhi hamara componet update ya render hota hai  useefffect run hota hai or call hota hai
     const [count, setCount] = useState(0);
     const [data, setdata] = useState(100);
 

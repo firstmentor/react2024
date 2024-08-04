@@ -16,6 +16,11 @@ import ConditionalRendering from './component/ConditionalRendering'
 import DigitalClock from './component/Hooks/DigitalClock'
 import HandlingEvents from './component/Hooks/HandlingEvents '
 import ControlledandUncontrolled from './component/Hooks/ControlledandUncontrolled'
+import IncrementDecrement from './component/Hooks/IncrementDecrement'
+import UseRef from './component/Hooks/UseRef'
+import PropDrilling from './component/Hooks/Prop Drilling /PropDrilling'
+import ContextAPI from './component/Hooks/ContextAPI /ContextAPI '
+import UseContect1 from './component/Hooks/useContext Hook/UseContect1'
 
 function App() {
   let data ="ravi"
@@ -40,7 +45,13 @@ function App() {
       {/* <UseEffect1/> */}
       {/* <DigitalClock/> */}
       {/* <HandlingEvents/> */}
-      <ControlledandUncontrolled/>
+      {/* <ControlledandUncontrolled/> */}
+      {/* <IncrementDecrement/> */}
+      {/* <UseRef/> */}
+      {/* <PropDrilling/> */}
+      {/* <ContextAPI/> */}
+      <UseContect1/>
+
     </>
   )
 }
