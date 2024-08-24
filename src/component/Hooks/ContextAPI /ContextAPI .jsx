@@ -8,7 +8,7 @@ const fname = createContext()
 const lname = createContext()
 
 function ContextAPI() {
-  let name = "pninfosys"
+  // let name = "pninfosys"
   return (
     <>
       <h1>Context API </h1>

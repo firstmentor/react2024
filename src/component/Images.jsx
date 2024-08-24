@@ -5,7 +5,8 @@ function Images() {
   return (
     <>
      <img src={img} alt="" style={{width:"500"}} />
-     <img src={require("../image/2.jpg")} alt="" />
+     
+     <img src={"../../src/image/2.jpg"} alt="" style={{ width: 500 }} />
 
     
     </>
@@ -13,3 +14,5 @@ function Images() {
 }
 
 export default Images
+
+

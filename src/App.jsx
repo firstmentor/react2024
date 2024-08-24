@@ -21,6 +21,7 @@ import UseRef from './component/Hooks/UseRef'
 import PropDrilling from './component/Hooks/Prop Drilling /PropDrilling'
 import ContextAPI from './component/Hooks/ContextAPI /ContextAPI '
 import UseContect1 from './component/Hooks/useContext Hook/UseContect1'
+import UseMemo from './component/Hooks/UseMemo'
 
 function App() {
   let data ="ravi"
@@ -33,16 +34,17 @@ function App() {
       {/* <UserState/> */}
       {/* <UseState1/> */}
       {/* <HideShowandToggle/> */}
-      {/* <Props d={data} c={count}/> */}
-      {/* <button onClick={()=>setCount(count+1)}>update count</button> */}
+      {/* <Props d={data} c={count}/>
+      <button onClick={()=>setCount(count+1)}>update count</button> */}
       {/* <CSSStyling/> */}
       {/* {<Props12 name={"ram"}/>} */}
       {/* <CardComponent/> */}
       {/* <ConditionalRendering/> */}
       {/* <Images /> */}
       {/* <UseState1/> */}
+    
       {/* <UseEffect/> */}
-      {/* <UseEffect1/> */}
+      <UseEffect1/>
       {/* <DigitalClock/> */}
       {/* <HandlingEvents/> */}
       {/* <ControlledandUncontrolled/> */}
@@ -50,7 +52,8 @@ function App() {
       {/* <UseRef/> */}
       {/* <PropDrilling/> */}
       {/* <ContextAPI/> */}
-      <UseContect1/>
+      {/* <UseContect1/> */}
+      {/* <UseMemo/> */}
 
     </>
   )

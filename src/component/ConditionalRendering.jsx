@@ -18,6 +18,7 @@ const MyFun =()=>{
     }
 }
 
+
 function ConditionalRendering() {
     let age = 30;
     let result;
@@ -43,5 +44,6 @@ function ConditionalRendering() {
     )
 
 }
+
 
 export default ConditionalRendering

@@ -6,7 +6,7 @@ function UseRef() {
 
   const refElem =useRef(0)  //object return karta hai key current
   //mutable value ko store kart hai or rerender nahi karta
-  // console.log(refElem.current)
+  //console.log(refElem.current)
 
   const change =(event)=>{
     setVal(event.target.value)
@@ -17,7 +17,7 @@ function UseRef() {
   // useEffect(()=>{
   //   setNum(num+1)
   //   //console.log("hello")
-  // })
+  // },[val])
 
   
   return (

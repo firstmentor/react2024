@@ -7,16 +7,15 @@ import './card.css'
 
 function CardComponent() {
     return (
-        <>
+        <>   
             <h1 className='heading'>Card Gwallery</h1>
             <div className='cardComp'>
                 <Card title="1" img={img1}/>
                 <Card title="2" img={img2}/>
                 <Card title="3" img={img3}/>
-                <Card title="4" img={img1}/>
+                <Card title="4" img={img2}/>
                 <Card title="5" img={img2}/>
-                <Card title="6" img={img3}/>
-                
+                <Card title="6" img={img2}/>
             </div>
 
 

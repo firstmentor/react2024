@@ -10,7 +10,7 @@ function HideShowandToggle() {
         {
           status ? <h1>helllo world</h1> : null
         }
-
+        
         <button onClick={() => setStatus(false)}>Hide</button>
         <br /><br />
         <button onClick={() => setStatus(true)}>Show</button>
