@@ -7,7 +7,7 @@ function PropDrilling() {
   return (
    <>
     <h1>Prop Drilling</h1>
-   <ChildA name={name}/>
+    <ChildA name={name}/>
    
    </>
   )

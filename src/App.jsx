@@ -18,8 +18,8 @@ import HandlingEvents from './component/Hooks/HandlingEvents '
 import ControlledandUncontrolled from './component/Hooks/ControlledandUncontrolled'
 import IncrementDecrement from './component/Hooks/IncrementDecrement'
 import UseRef from './component/Hooks/UseRef'
-import PropDrilling from './component/Hooks/Prop Drilling /PropDrilling'
-import ContextAPI from './component/Hooks/ContextAPI /ContextAPI '
+import PropDrilling from './component/Hooks/Prop Drilling/PropDrilling'
+import ContextAPI from './component/Hooks/ContextAPI/ContextAPI '
 import UseContect1 from './component/Hooks/useContext Hook/UseContect1'
 import UseMemo from './component/Hooks/UseMemo'
 
@@ -44,14 +44,14 @@ function App() {
       {/* <UseState1/> */}
     
       {/* <UseEffect/> */}
-      <UseEffect1/>
+      {/* <UseEffect1/> */}
       {/* <DigitalClock/> */}
       {/* <HandlingEvents/> */}
       {/* <ControlledandUncontrolled/> */}
       {/* <IncrementDecrement/> */}
       {/* <UseRef/> */}
       {/* <PropDrilling/> */}
-      {/* <ContextAPI/> */}
+      <ContextAPI/>
       {/* <UseContect1/> */}
       {/* <UseMemo/> */}
 
