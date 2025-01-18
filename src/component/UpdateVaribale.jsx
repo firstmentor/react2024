@@ -3,12 +3,13 @@ import React from 'react'
 function UpdateVaribale() {
     let data ="ram"
 
-    const updateData=(a)=>{
+    const updateData=()=>{
         let data ="raj"
         alert(data)
 
     }
-    console.log("render component")
+    
+    console.log("compoent render")
   return (
     <>
       <h1>Update Varibale {data}</h1>

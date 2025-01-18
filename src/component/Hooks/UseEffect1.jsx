@@ -5,14 +5,8 @@ function UseEffect1() {
     const [data, setdata] = useState(100);
 
     
-    useEffect(() => {
-        console.log("hello count")
+    
 
-    }, [count])
-
-    useEffect(() => {
-        console.log("hello data")
-    }, [data])
 
 
     return (

@@ -1,5 +1,4 @@
-import React from 'react'
-import { useState } from 'react'
+import React,{useState} from 'react'
 
 function DigitalClock() {
     const curTime =new Date().toLocaleTimeString()
@@ -18,7 +17,7 @@ function DigitalClock() {
     <> 
     <div className='container'>
          <h1>Digital Clock</h1>
-         <h1>{curTime}</h1>
+         <h1>{time}</h1>
 
     </div>
         

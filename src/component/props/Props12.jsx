@@ -1,9 +1,10 @@
 import React from 'react'
 
 function Props12(props) {
+  console.log(props)
   return (
     <>
-     <h1>hello {props.name}</h1>
+     <h1>hello {props.d}</h1>
 
     </>
   )

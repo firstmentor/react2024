@@ -22,6 +22,14 @@ import PropDrilling from './component/Hooks/Prop Drilling/PropDrilling'
 import ContextAPI from './component/Hooks/ContextAPI/ContextAPI '
 import UseContect1 from './component/Hooks/useContext Hook/UseContect1'
 import UseMemo from './component/Hooks/UseMemo'
+import Form from './component/Hooks/Form'
+import GetInputBoxValue from './component/Hooks/GetInputBoxValue'
+import Form1 from './component/Hooks/Form1'
+import MapFunction from './component/Hooks/MapFunction'
+import Lifecyclemethod from './component/Hooks/Lifecyclemethod'
+import ArrayMapMethod from './component/Hooks/ArrayMapMethod'
+import ReusableComponents from './component/Hooks/ReusableComponents'
+import Memo from './component/Hooks/Memo'
 
 function App() {
   let data ="ravi"
@@ -35,23 +43,31 @@ function App() {
       {/* <UseState1/> */}
       {/* <HideShowandToggle/> */}
       {/* <Props d={data} c={count}/>
-      <button onClick={()=>setCount(count+1)}>update count</button> */}
-      {/* <CSSStyling/> */}
+      <button onClick={()=>setCount(count+1)}>update count</button>  */}
+       {/* <CSSStyling/>  */}
       {/* {<Props12 name={"ram"}/>} */}
       {/* <CardComponent/> */}
       {/* <ConditionalRendering/> */}
       {/* <Images /> */}
       {/* <UseState1/> */}
     
-      {/* <UseEffect/> */}
-      {/* <UseEffect1/> */}
+        {/* <UseEffect/> */}
+      {/* <UseEffect1/>7 */}
       {/* <DigitalClock/> */}
       {/* <HandlingEvents/> */}
       {/* <ControlledandUncontrolled/> */}
+      {/* <GetInputBoxValue/> */}
+      {/* <Form/> */}
+      {/* <Form1/> */}
+      {/* <MapFunction/> */}
       {/* <IncrementDecrement/> */}
+      {/* <Lifecyclemethod/> */}
+      {/* <ArrayMapMethod/> */}
+      {/* <ReusableComponents/> */}
+      <Memo/>
       {/* <UseRef/> */}
       {/* <PropDrilling/> */}
-      <ContextAPI/>
+      {/* <ContextAPI/> */}
       {/* <UseContect1/> */}
       {/* <UseMemo/> */}
 

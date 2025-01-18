@@ -6,20 +6,17 @@ function UseEffect() {
     const [count, setCount] = useState(0);
     const [data, setdata] = useState(100);
 
-    const pn = () => {
-
+    const getApi = () => {
         fetch('https://jsonplaceholder.typicode.com/todos/1')
             .then(response => response.json())
             .then(json => console.log(json))
     }
-
     
     useEffect(() => {
-        pn()
-        console.log("useEffect")
-    },[])
+        getApi()
 
-
+        console.log("hello render useEffect")
+    },[count])
     return (
         <>
             <p>You clicked {count} times</p>
