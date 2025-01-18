@@ -30,6 +30,7 @@ import Lifecyclemethod from './component/Hooks/Lifecyclemethod'
 import ArrayMapMethod from './component/Hooks/ArrayMapMethod'
 import ReusableComponents from './component/Hooks/ReusableComponents'
 import Memo from './component/Hooks/Memo'
+import FetchAPI from './component/Fetch API/FetchAPI'
 
 function App() {
   let data ="ravi"
@@ -64,7 +65,8 @@ function App() {
       {/* <Lifecyclemethod/> */}
       {/* <ArrayMapMethod/> */}
       {/* <ReusableComponents/> */}
-      <Memo/>
+      {/* <Memo/> */}
+      <FetchAPI/>
       {/* <UseRef/> */}
       {/* <PropDrilling/> */}
       {/* <ContextAPI/> */}
