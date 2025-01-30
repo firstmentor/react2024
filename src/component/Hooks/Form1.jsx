@@ -14,7 +14,7 @@ function Form1() {
         const {name,value,type,checked} =event.target
         const fieldValue = type === 'checkbox' ? checked :value ;
         //console.log(event.target.value)
-        //console.log(fieldValue)
+        // console.log(fieldValue)
 
         setFromData({
             ...formData,  //spread
@@ -32,7 +32,7 @@ function Form1() {
         <div>
             <label>Username:</label>
             <input type="text"
-            name ="" 
+            name ="username" 
             value={formData.username}
            
             onChange={handleChange}
@@ -60,7 +60,7 @@ function Form1() {
         <div>
             <label>Subscribe:</label>
             <input type="checkbox"
-            name ="checkbox" 
+            name ="isSubscribed" 
             value={formData.isSubscribed}
             onChange={handleChange}
             

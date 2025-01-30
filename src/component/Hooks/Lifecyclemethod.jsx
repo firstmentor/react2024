@@ -6,7 +6,7 @@ function Lifecyclemethod() {
      <h1>Lifecyclemethod</h1>
       <h1>class</h1>
       <h1>Hooks</h1>
-       <h1>UseEffect</h1>
+      <h1>UseEffect</h1>
     
     </>
   ) 

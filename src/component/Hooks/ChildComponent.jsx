@@ -10,5 +10,5 @@ function ChildComponent(props) {
   );
 }
 
-// export default ChildComponent
-export default memo(ChildComponent)
+export default ChildComponent
+// export default memo(ChildComponent)

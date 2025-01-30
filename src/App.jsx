@@ -31,28 +31,32 @@ import ArrayMapMethod from './component/Hooks/ArrayMapMethod'
 import ReusableComponents from './component/Hooks/ReusableComponents'
 import Memo from './component/Hooks/Memo'
 import FetchAPI from './component/Fetch API/FetchAPI'
+import UseCallback from './component/Hooks/useCallback'
+import UseReducer from './component/Hooks/ UseReducer'
+import PostMethod from './component/Fetch API/PostMethod'
+import UpdateMethod from './component/Fetch API/UpdateMethod'
 
 function App() {
-  let data ="ravi"
-  const [count,setCount] =useState(0)
+  let data = "ravi"
+  const [count, setCount] = useState(0)
 
   return (
     <>
-     {/* <RenderMultipleElements/> */}
+      {/* <RenderMultipleElements/> */}
       {/* <UpdateVaribale/> */}
       {/* <UserState/> */}
       {/* <UseState1/> */}
       {/* <HideShowandToggle/> */}
       {/* <Props d={data} c={count}/>
       <button onClick={()=>setCount(count+1)}>update count</button>  */}
-       {/* <CSSStyling/>  */}
+      {/* <CSSStyling/>  */}
       {/* {<Props12 name={"ram"}/>} */}
       {/* <CardComponent/> */}
       {/* <ConditionalRendering/> */}
       {/* <Images /> */}
       {/* <UseState1/> */}
-    
-        {/* <UseEffect/> */}
+
+      {/* <UseEffect/> */}
       {/* <UseEffect1/>7 */}
       {/* <DigitalClock/> */}
       {/* <HandlingEvents/> */}
@@ -60,18 +64,22 @@ function App() {
       {/* <GetInputBoxValue/> */}
       {/* <Form/> */}
       {/* <Form1/> */}
-      {/* <MapFunction/> */}
       {/* <IncrementDecrement/> */}
       {/* <Lifecyclemethod/> */}
       {/* <ArrayMapMethod/> */}
       {/* <ReusableComponents/> */}
       {/* <Memo/> */}
-      <FetchAPI/>
+      {/* <FetchAPI/> */}
       {/* <UseRef/> */}
       {/* <PropDrilling/> */}
       {/* <ContextAPI/> */}
       {/* <UseContect1/> */}
       {/* <UseMemo/> */}
+      {/* <UseRef/> */}
+      {/* <UseCallback/> */}
+      {/* <UseReducer/> */}
+      {/* <PostMethod/> */}
+      <UpdateMethod />
 
     </>
   )

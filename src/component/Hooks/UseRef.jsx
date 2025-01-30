@@ -1,35 +1,30 @@
 import React, { useEffect, useRef, useState } from 'react'
 
 function UseRef() {
-  const [val,setVal] =useState("")
-  const [num,setNum] = useState(0)
 
-  const refElem =useRef(0)  //object return karta hai key current
-  //mutable value ko store kart hai or rerender nahi karta
-  //console.log(refElem.current)
+  // Example 1
+  const inputRef = useRef(null);
+  console.log(inputRef)
 
-  const change =(event)=>{
-    setVal(event.target.value)
-    refElem.current =refElem.current+1
-  }
-  
+  // Example 2
+  const handleButtonClick = () => {
+    const inputValue = inputRef.current.value;
+    alert(`Input Value: ${inputValue}`);
+    console.log(`Input Value: ${inputValue}`);
+  };
 
-  // useEffect(()=>{
-  //   setNum(num+1)
-  //   //console.log("hello")
-  // },[val])
 
-  
   return (
     <>
-      <h1>Useref Hook:</h1>
-      <input type="text" value={val} onChange={change}/>
-      {/* <h1>count:{num}</h1> */}
-      <h1>count : {refElem.current} </h1>
+      <h1>useRef In React.</h1>
+
+      {/* Example 1 */}
+      <input ref={inputRef} type="text" />
+      <button onClick={handleButtonClick}>Get Input Value</button>
 
 
-  
-      
+
+
     </>
   )
 }
