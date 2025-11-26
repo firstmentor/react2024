@@ -5,7 +5,7 @@ function UpdateVaribale() {
 
     const updateData=()=>{
         let data ="raj"
-        alert(data)
+        // alert(data)
 
     }
     
@@ -14,7 +14,8 @@ function UpdateVaribale() {
     <>
       <h1>Update Varibale {data}</h1>
 
-      <button onClick={updateData}>update data</button>
+      {/* <button onClick={updateData}>update data</button> */}
+      <button onClick={updateData}>update data 1</button>
     
     </>
   )

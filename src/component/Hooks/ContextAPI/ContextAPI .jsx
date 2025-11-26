@@ -14,6 +14,7 @@ function ContextAPI() {
       <h1>Context API </h1>
       <fname.Provider value={"pninfosys"}>
         <lname.Provider value={"gwalior"}>
+          
           <ChildA />
 
         </lname.Provider>
@@ -25,4 +26,4 @@ function ContextAPI() {
 
 export default ContextAPI
 
-export { fname,lname }
+export { fname,lname }  

@@ -35,6 +35,8 @@ import UseCallback from './component/Hooks/useCallback'
 import UseReducer from './component/Hooks/ UseReducer'
 import PostMethod from './component/Fetch API/PostMethod'
 import UpdateMethod from './component/Fetch API/UpdateMethod'
+import DeleteMethod from './component/Fetch API/DeleteMethod'
+import Axios1 from './component/Fetch API/Axios1'
 
 function App() {
   let data = "ravi"
@@ -47,17 +49,18 @@ function App() {
       {/* <UserState/> */}
       {/* <UseState1/> */}
       {/* <HideShowandToggle/> */}
-      {/* <Props d={data} c={count}/>
+      {/* <Props12 /> */}
+
+      {/* <Props name={"ram"} count={count}/>
       <button onClick={()=>setCount(count+1)}>update count</button>  */}
       {/* <CSSStyling/>  */}
-      {/* {<Props12 name={"ram"}/>} */}
       {/* <CardComponent/> */}
       {/* <ConditionalRendering/> */}
       {/* <Images /> */}
       {/* <UseState1/> */}
 
       {/* <UseEffect/> */}
-      {/* <UseEffect1/>7 */}
+      {/* <UseEffect1/> */}
       {/* <DigitalClock/> */}
       {/* <HandlingEvents/> */}
       {/* <ControlledandUncontrolled/> */}
@@ -69,17 +72,19 @@ function App() {
       {/* <ArrayMapMethod/> */}
       {/* <ReusableComponents/> */}
       {/* <Memo/> */}
-      {/* <FetchAPI/> */}
-      {/* <UseRef/> */}
-      {/* <PropDrilling/> */}
-      {/* <ContextAPI/> */}
-      {/* <UseContect1/> */}
       {/* <UseMemo/> */}
-      {/* <UseRef/> */}
-      {/* <UseCallback/> */}
+     {/* <UseCallback/> */}
       {/* <UseReducer/> */}
+       {/* <UseRef/> */}
+      {/* <PropDrilling/> */}
+      <ContextAPI/>
+      {/* <UseContect1/>
+      
+      {/* <FetchAPI/> */}
       {/* <PostMethod/> */}
-      <UpdateMethod />
+      {/* <UpdateMethod /> */}
+      {/* <DeleteMethod/> */}
+      {/* <Axios1/> */}
 
     </>
   )

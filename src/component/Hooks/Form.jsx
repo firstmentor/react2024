@@ -3,7 +3,8 @@ import React, { useState } from 'react'
 function Form() {
     const [name,setName] =useState()
     const [email,setEmail] =useState("")
-
+    // console.log(name)
+   
     const handleSubmit=(e)=>{
         e.preventDefault()
       

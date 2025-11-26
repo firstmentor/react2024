@@ -1,14 +1,13 @@
 import React, { memo } from "react";
 
-function ChildComponent(props) {
+function ChildComponent() {
   // Example 2
   console.log("Child Component Rendered!!");  //
   return (
     <>
-      <h3>Child Component Count : {props.count}</h3>
+      <h3>Child Component Count</h3>
     </>
   );
 }
-
-export default ChildComponent
-// export default memo(ChildComponent)
+// export default ChildComponent
+export default memo(ChildComponent)

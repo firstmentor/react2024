@@ -4,7 +4,7 @@ function DigitalClock() {
     const curTime =new Date().toLocaleTimeString()
     const [time,setTime] =useState(curTime)
 
-    const update =()=>{
+    const update =()=>{curTime
         const curTime =new Date().toLocaleTimeString()
         setTime(curTime)
     }

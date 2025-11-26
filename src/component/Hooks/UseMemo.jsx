@@ -6,27 +6,20 @@ function UseMemo() {
   const [number2, setNumber2] = useState(0);
   const [count, setCount] = useState(0);
 
-  // Example 1
-  // const sum = () => {
-  //   console.log("Calculating sum...! ");
-  //   return number1 + number2;
-  // };
-
-
-  // useEffect(()=>{
-  //   sum()
-
-  // },[number1,number2])
-
-  // useEffect work karta hai Lifecyclemethod ke liye .(re-render ke liye)
+  //Example 1
+  const sum = () => {
+    console.log("Calculating sum...! ");
+    return number1 + number2;
+  };
+  //useEffect work karta hai Lifecyclemethod ke liye .(re-render ke liye)
   // bo pure componet ko rerender karne se rok dekha
   // usemeno kisi ek componet ke andar function mai dependency create karni hai tab jake ap usememo ka use karege
 
   // Example 2 
-  const sum = useMemo(() => {
-    console.log("Calculating sum...! ");
-    return number1 + number2;
-  },[number1,number2]);
+  // const sum1 = useMemo(() => {
+  //   console.log("Calculating sum...! ");
+  //   return number1 + number2;
+  // },[number1,number2]);
 
 
 
@@ -49,7 +42,7 @@ function UseMemo() {
         />
 
         {/* Example 1 */}
-        {/* <p>Sum: {sum()}</p> */}
+        <p>Sum: {sum()}</p>
 
         {/* Example 2  use memo*/}
         <p>Sum: {sum}</p>

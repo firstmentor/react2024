@@ -11,7 +11,7 @@ function Memo() {
         <>
             <h1>Memo (Higher Order Component HOC)</h1>
 
-            <ChildComponent count={count} />
+            <ChildComponent />
 
             <h2>Count:{count}</h2>
             <button onClick={() => setCount(count + 1)}>Count+</button>

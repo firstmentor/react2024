@@ -8,17 +8,18 @@ function Form1() {
         isSubscribed:"",
         role:""
     })
-    //console.log(formData)
+    // console.log(formData)
 
     const handleChange =(event)=>{
         const {name,value,type,checked} =event.target
         const fieldValue = type === 'checkbox' ? checked :value ;
         //console.log(event.target.value)
-        // console.log(fieldValue)
+        console.log(fieldValue)
 
         setFromData({
             ...formData,  //spread
             [name]:fieldValue  //key value
+            
         })
     }
     const handleSubmit =(event)=>{
@@ -33,8 +34,6 @@ function Form1() {
             <label>Username:</label>
             <input type="text"
             name ="username" 
-            value={formData.username}
-           
             onChange={handleChange}
             
             />

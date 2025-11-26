@@ -4,10 +4,13 @@ function UseEffect1() {
     const [count, setCount] = useState(0);
     const [data, setdata] = useState(100);
 
+    useEffect(()=>{
+        console.log("hellocount")
+    },[count])
     
-    
-
-
+    useEffect(()=>{
+        console.log("hello data")
+    },[data])
 
     return (
         <>

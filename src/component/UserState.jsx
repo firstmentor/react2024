@@ -1,12 +1,15 @@
 import React, { useState } from 'react'
 
 function UserState() {
-    const [data ,setData] =useState("Hello World")
+ 
+    const [data ,setData] =useState("raj")
+  
+
     const updateData=()=>{
-        setData("Hello React")
+      setData("ram kumar")
 
     }
-    console.log("hello pn")
+    console.log("render")
   return (
    <>
     <h1>Use State {data}</h1>

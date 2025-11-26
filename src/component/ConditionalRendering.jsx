@@ -32,7 +32,7 @@ function ConditionalRendering() {
     return (
         <>
             <h1>hello {result}</h1>
-            <MyFun/>
+            {/* <MyFun/> */}
             {/* ternary operator */}
             <div>
                 {
